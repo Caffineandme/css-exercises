@@ -1,0 +1,27 @@
+/* Number one and number five will be the same class
+Number 3 will have the same properties but larger. Number 2 and 4 will be separate ID's */
+
+/* this selects number 1 and number 3 */
+.odd {
+	background-color: rgba(255, 167, 167, 255);
+
+	font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* this selects number 2 */
+#two {
+	color: blue;
+	font-size: 36px;
+}
+
+/* need to see how to select the odds but style this specific one differently*/
+.odd.cooler {
+	font-size: 24px;
+}
+
+/* this selects Number 4*/
+#four {
+	background-color: rgba(128, 255, 128, 255);
+	font-weight: bold;
+	font-size: 24px;
+}
